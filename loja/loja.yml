@@ -1,4 +1,4 @@
-postgres:
+spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     password: postgres
@@ -7,5 +7,8 @@ postgres:
   jpa:
     hibernate:
       ddl-auto: update
+      
+
+
 
 
