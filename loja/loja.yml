@@ -1,3 +1,13 @@
+postgres:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: postgres
+    url: 'jdbc:postgresql://localhost:5432/loja'
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+
 spring:
   datasource:
     password: admin
@@ -6,3 +16,4 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+
