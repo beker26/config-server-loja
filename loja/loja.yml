@@ -8,6 +8,7 @@ postgres:
     hibernate:
       ddl-auto: update
 
+server.port=${port:1980}
 spring:
   datasource:
     password: admin
