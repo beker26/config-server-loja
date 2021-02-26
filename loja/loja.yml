@@ -8,7 +8,7 @@ postgres:
     hibernate:
       ddl-auto: update
 
-server.port=${port:1980}
+       server.port=${port:1980}
 spring:
   datasource:
     password: admin
@@ -16,5 +16,5 @@ spring:
     url: 'jdbc:mysql://${MYSQL_HOST:localhost}:3306/loja'
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: update  
 
