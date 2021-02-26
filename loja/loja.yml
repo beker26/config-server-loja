@@ -1,4 +1,5 @@
-spring:
+#Postgres
+postgres:
   datasource:
     driver-class-name: org.postgresql.Driver
     password: postgres
@@ -7,6 +8,16 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+
+#Mysql
+spring:
+  datasource:
+    password: admin
+    username: root
+    url: 'jdbc:mysql://${MYSQL_HOST:localhost}:3306/loja'
+  jpa:
+    hibernate:
+      ddl-auto: update        
       
 
 
