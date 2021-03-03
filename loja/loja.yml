@@ -12,10 +12,9 @@ postgres:
 #Mysql
 spring:
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: 'jdbc:mysql://localhost:3306/loja'
-    username:root
-    password:admin
+    password: admin
+    username: root
+    url: 'jdbc:mysql://${MYSQL_HOST:localhost}:3306/fornecedor'
   jpa:
     hibernate:
       ddl-auto: update
